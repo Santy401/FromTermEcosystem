@@ -11,7 +11,8 @@ No es un blog, no es un tutorial: es el registro vivo de construir un ecosistema
 | Distro | Tipo | Estado | Docs | Script |
 |---|---|---|---|---|
 | [Arch Linux](docs/02-distros/arch/) | Rolling | ✅ Probada | [manual-install](docs/02-distros/arch/manual-install.md) · [speedrun](docs/02-distros/arch/speedrun.md) | [`arch-speedrun.sh`](scripts/arch-speedrun.sh) |
-| Debian Server | Stable | 🔜 Próxima | — | — |
+| [Debian 12](labs/ufw-pihole-lab/) | Stable | ✅ Probada | [lab UFW + Pi-hole](labs/ufw-pihole-lab/02-create-vms.md) | — |
+| Ubuntu Server | Stable | 🔜 Próxima | — | — |
 | Ubuntu Server | Stable | 🔜 Próxima | — | — |
 | Alpine Linux | Rolling/Ligera | 🔜 Próxima | — | — |
 | Void Linux | Rolling | 🔜 Próxima | — | — |
@@ -28,6 +29,9 @@ docs/
 │   └── arch/            # Arch Linux
 ├── 03-*/                # (futuro) networking, automatización, troubleshooting
 └── specs.md              # Especificaciones del servidor host
+
+labs/                     # Prácticas aisladas en VMs (reproducibles)
+└── ufw-pihole-lab/      # Red + UFW/puertos + Pi-hole en 3 VMs Debian
 
 scripts/
 ├── arch-speedrun.sh      # Speedrun de Arch
